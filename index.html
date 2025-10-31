@@ -1,0 +1,2136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método REPRO - Reduza Cancelamentos em 40% nos Próximos 30 Dias</title>
+    
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="O Sistema Definitivo de Linguagem Hipnótica para Personal Trainers que Reduz Cancelamentos em 40% nos Primeiros 30 Dias">
+    <meta name="keywords" content="personal trainer, hipnose, linguagem hipnótica, retenção de clientes, PNL, fitness">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* DARK PREMIUM PALETTE */
+            --primary-dark: #0A0E27;
+            --primary-purple: #6C63FF;
+            --accent-gold: #FFD93D;
+            --success-green: #00D9A3;
+            --urgency-red: #FF3B3F;
+            --text-light: #FFFFFF;
+            --text-gray: #B8B8D1;
+            --card-bg: #1A1D3A;
+            --border-color: rgba(108, 99, 255, 0.2);
+            
+            /* GRADIENTS */
+            --gradient-hero: linear-gradient(135deg, #6C63FF 0%, #0A0E27 100%);
+            --gradient-cta: linear-gradient(135deg, #FFD93D 0%, #FFA500 100%);
+            --gradient-guarantee: linear-gradient(135deg, #00D9A3 0%, #00B386 100%);
+            --gradient-card: linear-gradient(135deg, rgba(108, 99, 255, 0.1) 0%, rgba(10, 14, 39, 0.5) 100%);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background: var(--primary-dark);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: var(--gradient-hero);
+            color: var(--text-light);
+            padding: 60px 20px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 0%, rgba(108, 99, 255, 0.3) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 217, 61, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 25px;
+            border: 2px solid var(--accent-gold);
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            text-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero h1 .highlight {
+            color: var(--accent-gold);
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero h1 .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            right: 0;
+            height: 8px;
+            background: var(--accent-gold);
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        .hero .subheadline {
+            font-size: 1.3em;
+            margin-bottom: 35px;
+            opacity: 0.95;
+            font-weight: 400;
+            line-height: 1.6;
+            color: var(--text-gray);
+        }
+
+        /* AUDIO PLAYER SECTION */
+        .audio-section {
+            background: rgba(26, 29, 58, 0.6);
+            backdrop-filter: blur(20px);
+            padding: 35px;
+            border-radius: 25px;
+            margin: 35px auto;
+            max-width: 700px;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 10px 40px rgba(108, 99, 255, 0.2);
+        }
+
+        .audio-section h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            color: var(--accent-gold);
+        }
+
+        .audio-section p {
+            font-size: 1.05em;
+            color: var(--text-gray);
+            margin-bottom: 25px;
+        }
+
+        .audio-player {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 50px;
+            outline: none;
+            filter: brightness(0.9) contrast(1.1);
+        }
+
+        /* CTA BUTTON */
+        .cta-button {
+            display: inline-block;
+            background: var(--gradient-cta);
+            color: var(--primary-dark);
+            padding: 22px 55px;
+            font-size: 1.35em;
+            font-weight: 800;
+            border-radius: 60px;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 15px 45px rgba(255, 217, 61, 0.4);
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 60px rgba(255, 217, 61, 0.6);
+        }
+
+        .cta-button .price {
+            display: block;
+            font-size: 1.6em;
+            margin-top: 8px;
+            color: var(--primary-dark);
+            font-weight: 900;
+        }
+
+        .cta-button .old-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            font-size: 0.55em;
+            margin-right: 10px;
+        }
+
+        /* URGENCY BAR */
+        .urgency-bar {
+            background: var(--urgency-red);
+            color: white;
+            padding: 18px 20px;
+            text-align: center;
+            font-weight: 700;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(255, 59, 63, 0.4);
+            font-size: 1.05em;
+        }
+
+        .urgency-bar .counter {
+            font-size: 1.3em;
+            font-weight: 900;
+            color: var(--accent-gold);
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* SECTION */
+        .section {
+            padding: 100px 20px;
+        }
+
+        .section-title {
+            font-size: 2.8em;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 25px;
+            color: var(--text-light);
+            text-shadow: 0 2px 20px rgba(108, 99, 255, 0.3);
+        }
+
+        .section-title .accent {
+            color: var(--accent-gold);
+        }
+
+        .section-subtitle {
+            font-size: 1.25em;
+            text-align: center;
+            margin-bottom: 60px;
+            color: var(--text-gray);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+
+        /* PROBLEM SECTION */
+        .problem-section {
+            background: var(--card-bg);
+            position: relative;
+        }
+
+        .problem-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--primary-purple), transparent);
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .problem-card {
+            background: var(--gradient-card);
+            padding: 40px 35px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .problem-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-cta);
+            transform: scaleX(0);
+            transition: transform 0.4s ease;
+        }
+
+        .problem-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .problem-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--primary-purple);
+            box-shadow: 0 15px 50px rgba(108, 99, 255, 0.3);
+        }
+
+        .problem-card .icon {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .problem-card h3 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .problem-card p {
+            color: var(--text-gray);
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        /* SOLUTION SECTION */
+        .solution-section {
+            background: var(--primary-dark);
+        }
+
+        .solution-box {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 60px 50px;
+            border-radius: 25px;
+            text-align: center;
+            margin-top: 50px;
+            border: 2px solid var(--primary-purple);
+            box-shadow: 0 20px 60px rgba(108, 99, 255, 0.3);
+        }
+
+        .solution-box h3 {
+            font-size: 2.2em;
+            margin-bottom: 25px;
+            color: var(--accent-gold);
+            font-weight: 800;
+        }
+
+        .solution-box > p {
+            font-size: 1.15em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            color: var(--text-gray);
+        }
+
+        .solution-box .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .feature-item {
+            background: rgba(26, 29, 58, 0.6);
+            padding: 30px 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-gold);
+            box-shadow: 0 10px 30px rgba(255, 217, 61, 0.2);
+        }
+
+        .feature-item .emoji {
+            font-size: 3em;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .feature-item h4 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: var(--accent-gold);
+        }
+
+        .feature-item p {
+            font-size: 0.95em;
+            color: var(--text-gray);
+        }
+
+        /* VIDEO DEMO SECTION */
+        .video-demo-section {
+            background: var(--card-bg);
+            position: relative;
+        }
+
+        .video-demo-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--primary-purple), transparent);
+        }
+
+        .video-container {
+            max-width: 900px;
+            margin: 50px auto 0;
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
+            border: 3px solid var(--primary-purple);
+        }
+
+        .video-container video {
+            width: 100%;
+            display: block;
+            background: #000;
+        }
+
+        .video-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            box-shadow: 0 5px 20px rgba(255, 217, 61, 0.5);
+        }
+
+        /* VALUE STACK SECTION */
+        .value-stack-section {
+            background: var(--primary-dark);
+        }
+
+        .value-stack {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .value-item {
+            background: var(--gradient-card);
+            border: 2px solid var(--border-color);
+            border-radius: 20px;
+            padding: 40px 35px;
+            margin-bottom: 25px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .value-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(108, 99, 255, 0.1), transparent);
+            transition: left 0.6s;
+        }
+
+        .value-item:hover::before {
+            left: 100%;
+        }
+
+        .value-item:hover {
+            border-color: var(--primary-purple);
+            transform: translateX(8px);
+            box-shadow: 0 15px 50px rgba(108, 99, 255, 0.3);
+        }
+
+        .value-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .value-item h3 {
+            font-size: 1.5em;
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .value-price {
+            font-size: 1.4em;
+            font-weight: 800;
+            color: var(--success-green);
+            text-shadow: 0 2px 10px rgba(0, 217, 163, 0.3);
+        }
+
+        .value-item > p {
+            color: var(--text-gray);
+            margin-bottom: 20px;
+            font-size: 1.05em;
+        }
+
+        .value-item ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .value-item li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            color: var(--text-gray);
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+
+        .value-item li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-green);
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+
+        /* BONUS ITEMS */
+        .value-item.bonus {
+            border-color: var(--accent-gold);
+            background: linear-gradient(135deg, rgba(255, 217, 61, 0.1) 0%, rgba(10, 14, 39, 0.5) 100%);
+        }
+
+        .value-item.bonus::after {
+            content: 'BÔNUS';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.75em;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* BONUS SECTION DIVIDER */
+        .bonus-divider {
+            text-align: center;
+            margin: 70px 0 50px;
+            position: relative;
+        }
+
+        .bonus-divider h3 {
+            font-size: 2.5em;
+            color: var(--accent-gold);
+            font-weight: 900;
+            text-transform: uppercase;
+            display: inline-block;
+            background: var(--primary-dark);
+            padding: 0 30px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0 30px rgba(255, 217, 61, 0.5);
+        }
+
+        .bonus-divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+        }
+
+        /* TOTAL VALUE BOX */
+        .total-value-box {
+            background: linear-gradient(135deg, #FF6B9D 0%, #C06C84 100%);
+            padding: 50px 40px;
+            border-radius: 25px;
+            text-align: center;
+            margin-top: 50px;
+            border: 3px solid var(--accent-gold);
+            box-shadow: 0 25px 70px rgba(255, 107, 157, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .total-value-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 217, 61, 0.1) 0%, transparent 70%);
+            animation: pulse 4s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .total-value-box .total-label {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            opacity: 0.95;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .total-value-box .total-amount {
+            font-size: 4.5em;
+            font-weight: 900;
+            margin-bottom: 25px;
+            text-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .total-value-box > p {
+            font-size: 1.2em;
+            margin: 25px auto;
+            max-width: 600px;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .total-value-box .discount-badge {
+            display: inline-block;
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            padding: 15px 40px;
+            border-radius: 60px;
+            font-size: 1.4em;
+            font-weight: 900;
+            margin-top: 15px;
+            box-shadow: 0 10px 30px rgba(255, 217, 61, 0.5);
+            position: relative;
+            z-index: 1;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* GUARANTEE SECTION */
+        .guarantee-section {
+            background: var(--gradient-guarantee);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .guarantee-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .guarantee-box {
+            background: rgba(26, 29, 58, 0.3);
+            backdrop-filter: blur(20px);
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            padding: 60px 50px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .guarantee-box .badge {
+            font-size: 5em;
+            margin-bottom: 25px;
+            display: block;
+            filter: drop-shadow(0 5px 20px rgba(255, 217, 61, 0.5));
+        }
+
+        .guarantee-box h3 {
+            font-size: 2.3em;
+            margin-bottom: 30px;
+            font-weight: 800;
+            line-height: 1.3;
+        }
+
+        .guarantee-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .guarantee-step {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 35px 25px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .guarantee-step:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-gold);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .guarantee-step .number {
+            font-size: 2.5em;
+            font-weight: 900;
+            margin-bottom: 15px;
+            color: var(--accent-gold);
+            text-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .guarantee-step h4 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .guarantee-step p {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .guarantee-promise {
+            margin-top: 50px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .guarantee-promise h4 {
+            font-size: 1.6em;
+            margin-bottom: 20px;
+            color: var(--accent-gold);
+            font-weight: 800;
+        }
+
+        .guarantee-promise ul {
+            list-style: none;
+            font-size: 1.15em;
+            line-height: 2.2;
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .guarantee-promise li {
+            padding-left: 35px;
+            position: relative;
+        }
+
+        .guarantee-promise li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-gold);
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        .guarantee-final {
+            font-size: 1.35em;
+            margin-top: 35px;
+            font-weight: 700;
+            line-height: 1.6;
+        }
+
+        /* BONUS HIGHLIGHT SECTION */
+        .bonus-highlight-section {
+            background: var(--card-bg);
+        }
+
+        .bonus-highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .bonus-highlight-card {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 45px 35px;
+            border-radius: 25px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 15px 50px rgba(108, 99, 255, 0.3);
+            border: 2px solid var(--primary-purple);
+            transition: all 0.4s ease;
+        }
+
+        .bonus-highlight-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(108, 99, 255, 0.5);
+        }
+
+        .bonus-highlight-card::before {
+            content: 'BÔNUS';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 0.75em;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .bonus-highlight-card .icon {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            display: block;
+            filter: drop-shadow(0 5px 20px rgba(255, 217, 61, 0.3));
+        }
+
+        .bonus-highlight-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: 800;
+            color: var(--accent-gold);
+        }
+
+        .bonus-highlight-card p {
+            font-size: 1.05em;
+            line-height: 1.6;
+            color: var(--text-gray);
+        }
+
+        .bonus-highlight-card .value {
+            font-size: 1.6em;
+            font-weight: 800;
+            color: var(--accent-gold);
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .exclusive-alert {
+            text-align: center;
+            margin-top: 60px;
+            padding: 50px 40px;
+            background: rgba(255, 217, 61, 0.1);
+            border-radius: 20px;
+            border: 3px solid var(--accent-gold);
+            box-shadow: 0 10px 40px rgba(255, 217, 61, 0.2);
+        }
+
+        .exclusive-alert h3 {
+            font-size: 2.2em;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        .exclusive-alert p {
+            font-size: 1.25em;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        /* FAQ SECTION */
+        .faq-section {
+            background: var(--primary-dark);
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--gradient-card);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--primary-purple);
+        }
+
+        .faq-question {
+            padding: 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.15em;
+            transition: all 0.3s ease;
+            color: var(--text-light);
+        }
+
+        .faq-question:hover {
+            background: rgba(108, 99, 255, 0.1);
+        }
+
+        .faq-question .icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+            color: var(--accent-gold);
+        }
+
+        .faq-item.active .faq-question {
+            background: rgba(108, 99, 255, 0.15);
+        }
+
+        .faq-item.active .faq-question .icon {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            padding: 0 30px;
+            color: var(--text-gray);
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 600px;
+            padding: 0 30px 30px;
+        }
+
+        .faq-answer p {
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+
+        /* FINAL CTA SECTION */
+        .final-cta-section {
+            background: var(--gradient-hero);
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .final-cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 217, 61, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .final-cta-section h2 {
+            font-size: 3.5em;
+            margin-bottom: 40px;
+            font-weight: 900;
+            position: relative;
+            z-index: 1;
+        }
+
+        .price-comparison {
+            background: rgba(26, 29, 58, 0.6);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 50px 45px;
+            max-width: 650px;
+            margin: 40px auto;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .price-comparison h3 {
+            margin-bottom: 35px;
+            font-size: 1.7em;
+            color: var(--accent-gold);
+            font-weight: 800;
+        }
+
+        .price-comparison ul {
+            list-style: none;
+            text-align: left;
+            line-height: 2.3;
+            font-size: 1.1em;
+        }
+
+        .price-comparison li {
+            padding-left: 40px;
+            position: relative;
+            margin-bottom: 12px;
+        }
+
+        .option-bad li:before {
+            content: "❌";
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+
+        .option-good li:before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+            font-size: 1.2em;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .price-row:last-child {
+            border-bottom: none;
+            padding-top: 25px;
+            font-size: 1.4em;
+            color: var(--accent-gold);
+        }
+
+        .price-label {
+            font-size: 1.15em;
+            font-weight: 600;
+        }
+
+        .price-value {
+            font-weight: 800;
+            font-size: 1.3em;
+        }
+
+        .savings {
+            background: var(--success-green);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 25px;
+            font-size: 1.4em;
+            font-weight: 800;
+            box-shadow: 0 10px 30px rgba(0, 217, 163, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .divider-or {
+            font-size: 2.5em;
+            margin: 50px 0;
+            font-weight: 900;
+            color: var(--accent-gold);
+            text-shadow: 0 5px 20px rgba(255, 217, 61, 0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        .final-reminder {
+            margin-top: 50px;
+            padding: 40px;
+            background: rgba(26, 29, 58, 0.6);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid var(--accent-gold);
+            position: relative;
+            z-index: 1;
+        }
+
+        .final-reminder p {
+            font-size: 1.25em;
+            line-height: 1.9;
+        }
+
+        .final-reminder strong {
+            color: var(--accent-gold);
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #000000;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .footer a {
+            color: var(--accent-gold);
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .footer a:hover {
+            opacity: 0.7;
+        }
+
+        /* STICKY CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 14, 39, 0.98);
+            backdrop-filter: blur(20px);
+            padding: 20px;
+            box-shadow: 0 -5px 30px rgba(108, 99, 255, 0.3);
+            z-index: 999;
+            border-top: 2px solid var(--primary-purple);
+            display: none;
+        }
+
+        .sticky-cta.show {
+            display: block;
+            animation: slideUp 0.4s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        .sticky-cta .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .sticky-cta .info {
+            color: white;
+        }
+
+        .sticky-cta .info .title {
+            font-weight: 700;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        .sticky-cta .price-tag {
+            font-size: 1.8em;
+            font-weight: 900;
+            color: var(--accent-gold);
+            text-shadow: 0 2px 10px rgba(255, 217, 61, 0.5);
+        }
+
+        .sticky-cta .cta-button {
+            margin: 0;
+            padding: 18px 45px;
+            font-size: 1.15em;
+        }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2em;
+            }
+
+            .hero .subheadline {
+                font-size: 1.15em;
+            }
+
+            .section-title {
+                font-size: 2.2em;
+            }
+
+            .section {
+                padding: 70px 20px;
+            }
+
+            .cta-button {
+                padding: 20px 40px;
+                font-size: 1.15em;
+            }
+
+            .problem-grid,
+            .bonus-highlight-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .audio-section {
+                padding: 25px 20px;
+            }
+
+            .solution-box,
+            .guarantee-box {
+                padding: 40px 25px;
+            }
+
+            .solution-box .features {
+                grid-template-columns: 1fr;
+            }
+
+            .total-value-box .total-amount {
+                font-size: 3em;
+            }
+
+            .final-cta-section h2 {
+                font-size: 2.5em;
+            }
+
+            .sticky-cta .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .sticky-cta .cta-button {
+                width: 100%;
+            }
+
+            .guarantee-steps {
+                grid-template-columns: 1fr;
+            }
+
+            .value-item-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* ANIMATIONS */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                box-shadow: 0 15px 45px rgba(255, 217, 61, 0.4);
+            }
+            50% {
+                box-shadow: 0 20px 60px rgba(255, 217, 61, 0.7);
+            }
+        }
+
+        .pulse {
+            animation: pulseGlow 2s infinite;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- URGENCY BAR -->
+    <div class="urgency-bar">
+        🔥 <span class="counter" id="vagas-counter">197</span> vagas restantes • O preço aumenta a cada 50 vagas preenchidas!
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content fade-in-up">
+            <div class="hero-badge">✨ MÉTODO CIENTÍFICO COMPROVADO</div>
+            
+            <h1>
+                Como <span class="highlight">Reduzir Cancelamentos em 40%</span> nos Próximos 30 Dias Usando Linguagem Hipnótica Científica
+            </h1>
+            
+            <p class="subheadline">
+                O Sistema Completo de Comunicação Hipnótica para Personal Trainers que Transforma Clientes Desmotivados em Fãs Engajados que Treinam com Prazer, Indicam Você Espontaneamente e Renovam Planos Longos sem Resistência
+            </p>
+
+            <!-- AUDIO PLAYER -->
+            <div class="audio-section">
+                <h3>🎧 Ouça Esta Mensagem Antes de Continuar</h3>
+                <p>Uma experiência que vai mudar sua forma de ver a comunicação com seus clientes...</p>
+                <audio class="audio-player" controls>
+                    <source src="https://appestoicismo.github.io/habitoacademia/narracaohipnoticahabitoacademia1.MP3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+
+            <a href="#oferta" class="cta-button pulse">
+                QUERO ACESSO AO MÉTODO REPRO
+                <span class="price">
+                    <span class="old-price">R$ 250,00</span>
+                    R$ 47,50
+                </span>
+            </a>
+
+            <p style="margin-top: 25px; font-size: 0.95em; color: var(--text-gray);">
+                ✅ Acesso Vitalício • ✅ Garantia de 21 Dias • ✅ 6 Bônus Exclusivos
+            </p>
+        </div>
+    </section>
+
+    <!-- PROBLEM SECTION -->
+    <section class="section problem-section">
+        <div class="container">
+            <h2 class="section-title">Você Já Passou Por Isso?</h2>
+            <p class="section-subtitle">
+                Situações frustrantes que todo Personal Trainer enfrenta diariamente...
+            </p>
+
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="icon">😔</div>
+                    <h3>Cliente Desmotivado</h3>
+                    <p>Chega sem energia, faz tudo no automático, você tenta motivar gritando mais alto mas nada muda. No mês seguinte: cancelamento.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="icon">💸</div>
+                    <h3>Rotatividade Constante</h3>
+                    <p>Todo mês você perde 3-5 clientes e precisa captar novos só pra manter o faturamento. É uma roda sem fim que te deixa exausto.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="icon">🗣️</div>
+                    <h3>"Tá Caro"</h3>
+                    <p>Quando você fala o preço, eles comparam com a academia comum. Você sabe que entrega muito mais, mas não consegue comunicar o valor.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="icon">😓</div>
+                    <h3>Falta de Engajamento</h3>
+                    <p>Mesmo quando vem, está desconectado. Olha o celular entre séries, não lembra o que fez na última sessão, não evolui como deveria.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="icon">🤐</div>
+                    <h3>Não Te Indicam</h3>
+                    <p>Você entrega resultado, mas ninguém te indica espontaneamente. Você fica dependendo de anúncios pagos pra conseguir novos clientes.</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="icon">⏳</div>
+                    <h3>Planos Curtos</h3>
+                    <p>Só renovam mês a mês porque "querem ver se funciona". Você não tem previsibilidade de receita e vive ansioso sobre o futuro.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 70px;">
+                <h3 style="font-size: 2em; color: var(--accent-gold); margin-bottom: 25px; font-weight: 800;">
+                    E se eu te dissesse que o problema NÃO é você?
+                </h3>
+                <p style="font-size: 1.25em; max-width: 700px; margin: 0 auto; color: var(--text-gray); line-height: 1.8;">
+                    O problema é que ninguém te ensinou a linguagem que o cérebro humano realmente responde. 
+                    Você está usando <strong style="color: var(--text-light);">comunicação de superfície</strong> quando deveria estar usando 
+                    <strong style="color: var(--accent-gold);">linguagem hipnótica profunda</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTION SECTION -->
+    <section class="section solution-section">
+        <div class="container">
+            <h2 class="section-title">A Solução: <span class="accent">Método REPRO</span></h2>
+            <p class="section-subtitle">
+                O único sistema de linguagem hipnótica desenvolvido especificamente para Personal Trainers
+            </p>
+
+            <div class="solution-box">
+                <h3>O Que É o Método REPRO?</h3>
+                <p>
+                    É um sistema completo baseado em <strong>Hipnose Clínica</strong> e <strong>PNL (Programação Neurolinguística)</strong> 
+                    adaptado para o contexto do fitness. São técnicas científicas que grandes terapeutas usam há décadas, 
+                    agora aplicadas ao seu dia a dia com clientes.
+                </p>
+
+                <div class="features">
+                    <div class="feature-item">
+                        <span class="emoji">🤝</span>
+                        <h4>R - Relação</h4>
+                        <p>Rapport profundo em menos de 60 segundos</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="emoji">💫</span>
+                        <h4>E - Estado Emocional</h4>
+                        <p>Ancoragem de estados positivos</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="emoji">🧠</span>
+                        <h4>P - Persuasão Ética</h4>
+                        <p>Frases hipnóticas que movem à ação</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="emoji">🎯</span>
+                        <h4>R - Resultados</h4>
+                        <p>Ressignificação e metamodelo</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="emoji">🛡️</span>
+                        <h4>O - Objeções</h4>
+                        <p>Desativação de resistências mentais</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 60px;">
+                <h3 style="font-size: 2.2em; color: var(--accent-gold); margin-bottom: 25px; font-weight: 800;">
+                    E o Melhor: Você NÃO Precisa Ser Terapeuta
+                </h3>
+                <p style="font-size: 1.25em; max-width: 800px; margin: 0 auto; line-height: 1.9; color: var(--text-gray);">
+                    Tudo está <strong style="color: var(--text-light);">pronto</strong>, <strong style="color: var(--text-light);">mastigado</strong> e <strong style="color: var(--text-light);">aplicável</strong>. 
+                    São frases prontas, scripts testados, técnicas simplificadas. 
+                    Você só precisa <strong style="color: var(--accent-gold);">usar</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO DEMO SECTION -->
+    <section class="section video-demo-section">
+        <div class="container">
+            <h2 class="section-title">Veja o <span class="accent">AppAutoHipnose</span> em Ação</h2>
+            <p class="section-subtitle">
+                Demonstração completa da plataforma e como você vai usar no seu dia a dia
+            </p>
+
+            <div class="video-container">
+                <div class="video-badge">📱 DEMO</div>
+                <video controls poster="">
+                    <source src="https://appestoicismo.github.io/emagrecimento/appautohipnose1.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <p style="font-size: 1.2em; max-width: 700px; margin: 0 auto; color: var(--text-gray); line-height: 1.8;">
+                    👆 Veja como é <strong style="color: var(--text-light);">simples e intuitivo</strong>. 
+                    Em menos de 5 minutos você já está gerando frases hipnóticas personalizadas para seus clientes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUE STACK SECTION -->
+    <section class="section value-stack-section" id="oferta">
+        <div class="container">
+            <h2 class="section-title">O Que Você Recebe <span class="accent">Hoje</span></h2>
+            <p class="section-subtitle">
+                Sistema completo + 6 bônus estratégicos que valem mais que o preço total
+            </p>
+
+            <div class="value-stack">
+                <!-- CORE SYSTEM -->
+                <div class="value-item">
+                    <div class="value-item-header">
+                        <h3>🎯 AppAutoHipnose - Acesso Vitalício</h3>
+                        <div class="value-price">R$ 497</div>
+                    </div>
+                    <p>Plataforma web completa que funciona em qualquer dispositivo</p>
+                    <ul>
+                        <li>Acesso vitalício sem mensalidades</li>
+                        <li>Atualizações automáticas e gratuitas</li>
+                        <li>Interface intuitiva (não precisa ser técnico)</li>
+                        <li>Funciona em celular, tablet ou computador</li>
+                    </ul>
+                </div>
+
+                <div class="value-item">
+                    <div class="value-item-header">
+                        <h3>📚 Método REPRO - 6 Trilhas Completas</h3>
+                        <div class="value-price">R$ 1.247</div>
+                    </div>
+                    <p>299 minutos de treinamento profundo e aplicável</p>
+                    <ul>
+                        <li><strong>Trilha 1:</strong> Relação - Rapport Profundo (45 min)</li>
+                        <li><strong>Trilha 2:</strong> Estado Emocional - Ancoragem (52 min)</li>
+                        <li><strong>Trilha 3:</strong> Persuasão Ética - Frases Hipnóticas (68 min)</li>
+                        <li><strong>Trilha 4:</strong> Resultados - Metamodelo (41 min)</li>
+                        <li><strong>Trilha 5:</strong> Objeções - Desativação de Resistências (38 min)</li>
+                        <li><strong>Trilha 6:</strong> Integração Prática - Casos Reais (55 min)</li>
+                    </ul>
+                </div>
+
+                <div class="value-item">
+                    <div class="value-item-header">
+                        <h3>💬 Biblioteca de 157 Frases Hipnóticas</h3>
+                        <div class="value-price">R$ 397</div>
+                    </div>
+                    <p>Frases prontas organizadas por momento e estado emocional</p>
+                    <ul>
+                        <li>157 frases catalogadas e testadas</li>
+                        <li>Organizadas por momento do treino</li>
+                        <li>Sistema de busca inteligente</li>
+                        <li>Adaptadas para ele/ela/neutro</li>
+                    </ul>
+                </div>
+
+                <!-- BÔNUS DIVIDER -->
+                <div class="bonus-divider">
+                    <h3>+ 6 BÔNUS ESTRATÉGICOS</h3>
+                </div>
+
+                <!-- BÔNUS -->
+                <div class="value-item bonus">
+                    <div class="value-item-header">
+                        <h3>🎁 BÔNUS #1: Perfil Comportamental Completo</h3>
+                        <div class="value-price">R$ 497</div>
+                    </div>
+                    <ul>
+                        <li>Teste interativo de 25 perguntas</li>
+                        <li>Descubra seu perfil: Águia/Gato/Lobo/Tubarão</li>
+                        <li>Guia completo dos 4 perfis (PDF 47 páginas)</li>
+                        <li>Como identificar o perfil do seu cliente em 2 minutos</li>
+                        <li>Frases hipnóticas específicas para cada perfil</li>
+                    </ul>
+                </div>
+
+                <div class="value-item bonus">
+                    <div class="value-item-header">
+                        <h3>🎁 BÔNUS #2: Agente IA 24/7</h3>
+                        <div class="value-price">R$ 997</div>
+                    </div>
+                    <ul>
+                        <li>Inteligência Artificial especializada em linguagem hipnótica</li>
+                        <li>Disponível 24 horas, 7 dias por semana</li>
+                        <li>Gere frases personalizadas em tempo real</li>
+                        <li>Tire dúvidas sobre técnicas de PNL</li>
+                        <li>Análise e feedback de scripts que você criar</li>
+                    </ul>
+                </div>
+
+                <div class="value-item bonus">
+                    <div class="value-item-header">
+                        <h3>🎁 BÔNUS #3: Sistema de Medição de Resultados</h3>
+                        <div class="value-price">R$ 397</div>
+                    </div>
+                    <ul>
+                        <li>Dashboard completo de antes/depois</li>
+                        <li>6 indicadores-chave de performance</li>
+                        <li>Gráficos visuais de evolução</li>
+                        <li>Cálculo automático de melhoria percentual</li>
+                        <li>Relatório exportável em PDF</li>
+                    </ul>
+                </div>
+
+                <div class="value-item bonus">
+                    <div class="value-item-header">
+                        <h3>🎁 BÔNUS #4: Guia "60 Dificuldades de Personal Trainers"</h3>
+                        <div class="value-price">R$ 297</div>
+                    </div>
+                    <ul>
+                        <li>Pesquisa com 347 Personal Trainers brasileiros</li>
+                        <li>60 problemas reais identificados</li>
+                        <li>Soluções práticas usando linguagem hipnótica</li>
+                        <li>Cases de sucesso documentados</li>
+                        <li>PDF com 89 páginas</li>
+                    </ul>
+                </div>
+
+                <div class="value-item bonus">
+                    <div class="value-item-header">
+                        <h3>🎁 BÔNUS #5: 12 Scripts Prontos</h3>
+                        <div class="value-price">R$ 197</div>
+                    </div>
+                    <ul>
+                        <li>Scripts palavra por palavra</li>
+                        <li>Cliente querendo cancelar</li>
+                        <li>Cliente faltando muito</li>
+                        <li>Cliente não vendo resultados</li>
+                        <li>Cliente desmotivado após platô</li>
+                        <li>E mais 8 situações críticas</li>
+                    </ul>
+                </div>
+
+                <div class="value-item bonus">
+                    <div class="value-item-header">
+                        <h3>🎁 BÔNUS #6: Biblioteca de 47 Metáforas</h3>
+                        <div class="value-price">R$ 101</div>
+                    </div>
+                    <ul>
+                        <li>47 metáforas poderosas prontas</li>
+                        <li>Organizadas por objetivo</li>
+                        <li>Técnicas de storytelling</li>
+                        <li>Exemplos de Milton Erickson adaptados</li>
+                    </ul>
+                </div>
+
+                <!-- TOTAL VALUE -->
+                <div class="total-value-box">
+                    <div class="total-label">VALOR TOTAL DE TUDO:</div>
+                    <div class="total-amount">R$ 4.627</div>
+                    <p>Se você fosse montar isso sozinho, gastaria R$ 19.300+ e levaria 2-3 anos</p>
+                    <div class="discount-badge">VOCÊ ECONOMIZA R$ 4.579,50 HOJE</div>
+                </div>
+
+                <div style="text-align: center; margin-top: 60px;">
+                    <a href="#checkout" class="cta-button pulse">
+                        SIM! QUERO ACESSO AGORA
+                        <span class="price">
+                            <span class="old-price">R$ 250,00</span>
+                            R$ 47,50
+                        </span>
+                    </a>
+                    <p style="margin-top: 25px; color: var(--text-gray); font-size: 1.05em;">
+                        ⚡ Apenas <span id="vagas-counter-2" style="color: var(--accent-gold); font-weight: 800;">197</span> vagas disponíveis neste preço
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUARANTEE SECTION -->
+    <section class="section guarantee-section">
+        <div class="container">
+            <h2 class="section-title">Garantia <span class="accent">Ação Tripla</span></h2>
+            <p class="section-subtitle">
+                Ou você age e vê resultados, ou fica com tudo de graça + mentoria
+            </p>
+
+            <div class="guarantee-box">
+                <div class="badge">🛡️</div>
+                <h3>Você Tem 21 Dias Para Fazer 3 Coisas Simples:</h3>
+                
+                <div class="guarantee-steps">
+                    <div class="guarantee-step">
+                        <div class="number">1️⃣</div>
+                        <h4>Completar as 6 Trilhas</h4>
+                        <p>Menos de 5 horas no total</p>
+                    </div>
+                    <div class="guarantee-step">
+                        <div class="number">2️⃣</div>
+                        <h4>Testar 10 Frases</h4>
+                        <p>Com seus clientes reais</p>
+                    </div>
+                    <div class="guarantee-step">
+                        <div class="number">3️⃣</div>
+                        <h4>Registrar Resultados</h4>
+                        <p>No Sistema de Medição</p>
+                    </div>
+                </div>
+
+                <div class="guarantee-promise">
+                    <h4>Se Você Fizer Isso e NÃO Ver Resultado:</h4>
+                    <ul>
+                        <li>Fica com acesso VITALÍCIO ao sistema</li>
+                        <li>Fica com TODOS os 6 bônus</li>
+                        <li>Ganha uma sessão de mentoria de 30min GRÁTIS</li>
+                    </ul>
+                </div>
+
+                <p class="guarantee-final">
+                    Isso remove 100% do seu risco. Ou funciona, ou você fica com tudo E ainda ganha mentoria.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BONUS HIGHLIGHT SECTION -->
+    <section class="section bonus-highlight-section">
+        <div class="container">
+            <h2 class="section-title">Bônus de <span class="accent">Ação Rápida</span></h2>
+            <p class="section-subtitle">
+                Se você está entre os primeiros 50, ganha TAMBÉM:
+            </p>
+
+            <div class="bonus-highlight-grid">
+                <div class="bonus-highlight-card">
+                    <div class="icon">⚡</div>
+                    <h3>Acesso Antecipado</h3>
+                    <p>Receba todas as futuras atualizações 1 semana antes dos outros usuários</p>
+                    <div class="value">Exclusivo</div>
+                </div>
+
+                <div class="bonus-highlight-card">
+                    <div class="icon">🏆</div>
+                    <h3>Badge de Fundador</h3>
+                    <p>Distintivo especial no seu perfil do app mostrando que você é early adopter</p>
+                    <div class="value">Exclusivo</div>
+                </div>
+
+                <div class="bonus-highlight-card">
+                    <div class="icon">💬</div>
+                    <h3>Grupo VIP WhatsApp</h3>
+                    <p>Acesso ao grupo exclusivo com outros Personal Trainers que estão implementando o método</p>
+                    <div class="value">Exclusivo</div>
+                </div>
+
+                <div class="bonus-highlight-card">
+                    <div class="icon">📜</div>
+                    <h3>Certificado Digital</h3>
+                    <p>Certificado de Conclusão do Método REPRO para usar no Instagram e currículo</p>
+                    <div class="value">Exclusivo</div>
+                </div>
+            </div>
+
+            <div class="exclusive-alert">
+                <h3>⚠️ Esses Bônus NÃO Estão Disponíveis Depois</h3>
+                <p>
+                    Só os primeiros 50 terão acesso a essas vantagens exclusivas. Depois, fecham para sempre.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">Perguntas <span class="accent">Frequentes</span></h2>
+            <p class="section-subtitle">
+                Tudo que você precisa saber antes de tomar sua decisão
+            </p>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Eu preciso ter conhecimento prévio de hipnose ou PNL?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>NÃO! Esse é o grande diferencial do Método REPRO. Tudo foi simplificado e adaptado para Personal Trainers. Você recebe frases prontas, scripts testados e técnicas explicadas passo a passo. É só copiar e aplicar.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Quanto tempo leva para implementar?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A implementação é IMEDIATA. Você pode começar a usar as frases prontas já na sua próxima sessão com cliente. O estudo completo das 6 trilhas leva menos de 5 horas, mas você não precisa terminar tudo antes de começar a aplicar.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Isso funciona online ou só presencial?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Funciona PERFEITAMENTE nos dois formatos! A linguagem hipnótica funciona até melhor online porque você tem o áudio direto no ouvido do cliente. Temos técnicas específicas para cada formato.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>E se eu trabalho com grupos, funciona também?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>SIM! Temos frases e técnicas específicas para treino em grupo. Na verdade, quando você domina linguagem hipnótica, consegue falar com o grupo inteiro mas cada pessoa sente que você está falando diretamente com ela.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>O Agente IA 24/7 tem custo mensal?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>NÃO! O acesso ao Agente IA está INCLUÍDO no pagamento único. Você paga uma vez e usa para sempre, sem mensalidades, sem custos escondidos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Por que o preço está tão baixo?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Porque é um LANÇAMENTO. Queremos que o máximo de Personal Trainers possível tenha acesso e depois nos dê feedback e depoimentos. Após as primeiras 200 vagas, o preço vai para R$ 250,00 (ainda muito abaixo do valor real de R$ 4.627). E quanto mais cedo você entrar, menos paga.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Como funciona o sistema de vagas e preço escalonado?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Simples: Vagas 1-50 = R$ 47,50 | Vagas 51-100 = R$ 67,00 | Vagas 101-150 = R$ 97,00 | Vagas 151-200 = R$ 147,00. Depois disso, preço normal de R$ 250,00. Quanto mais cedo você entrar, menos paga. PARA SEMPRE.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Como sei se a garantia realmente funciona?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A garantia é automática. Basta você registrar suas 3 ações no sistema (completar trilhas, testar frases, medir resultados). Se em 21 dias você não ver melhoria NENHUMA, você envia um email e nós confirmamos sua mentoria de 30min. Simples assim. E você continua com acesso a tudo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Meus clientes vão perceber que estou usando "técnicas"?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>NÃO! Essa é a magia da hipnose conversacional. Parecem frases naturais, motivacionais, inspiradoras. Ninguém sabe que tem uma estrutura científica por trás. Eles só vão sentir que você "entende eles de um jeito diferente".</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Posso usar com qualquer tipo de cliente?</span>
+                        <span class="icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>SIM! O método funciona com qualquer perfil: iniciante ou avançado, jovem ou idoso, emagrecimento ou hipertrofia, homem ou mulher. Temos frases e técnicas específicas para cada situação e o Agente IA te ajuda a personalizar quando necessário.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA SECTION -->
+    <section class="final-cta-section" id="checkout">
+        <div class="container">
+            <h2>Você Tem Duas Opções</h2>
+            
+            <div class="price-comparison option-bad">
+                <h3>Opção 1: Continuar Como Está</h3>
+                <ul>
+                    <li>Perder 3-5 clientes todo mês</li>
+                    <li>Gastar em anúncios pra captar novos</li>
+                    <li>Competir por preço com academia comum</li>
+                    <li>Ver clientes desmotivados sem saber o que fazer</li>
+                    <li>Viver na ansiedade de não saber se vão renovar</li>
+                </ul>
+            </div>
+
+            <div class="divider-or">OU</div>
+
+            <div class="price-comparison option-good">
+                <h3>Opção 2: Método REPRO</h3>
+                
+                <div class="price-row">
+                    <span class="price-label">Sistema Completo</span>
+                    <span class="price-value" style="text-decoration: line-through; opacity: 0.6;">R$ 4.627</span>
+                </div>
+                <div class="price-row">
+                    <span class="price-label">Preço Normal</span>
+                    <span class="price-value" style="text-decoration: line-through; opacity: 0.6;">R$ 250</span>
+                </div>
+                <div class="price-row" style="font-size: 1.6em;">
+                    <span class="price-label">VOCÊ PAGA HOJE:</span>
+                    <span class="price-value">R$ 47,50</span>
+                </div>
+
+                <div class="savings">
+                    🎉 VOCÊ ECONOMIZA R$ 4.579,50 (99% OFF)
+                </div>
+
+                <ul style="margin-top: 35px;">
+                    <li>Reduzir cancelamentos em 40%</li>
+                    <li>Clientes mais engajados e motivados</li>
+                    <li>Mais indicações espontâneas</li>
+                    <li>Renovações de planos longos</li>
+                    <li>Cobrar mais sendo mais valorizado</li>
+                    <li>Acesso vitalício + 6 bônus</li>
+                    <li>Garantia de 21 dias</li>
+                    <li>Risco ZERO</li>
+                </ul>
+            </div>
+
+            <div style="margin-top: 70px;">
+                <a href="https://pay.hotmart.com/SEU_LINK_AQUI" class="cta-button" style="font-size: 1.6em; padding: 28px 70px;">
+                    GARANTIR MINHA VAGA AGORA
+                    <span class="price">
+                        <span class="old-price">R$ 250,00</span>
+                        R$ 47,50
+                    </span>
+                </a>
+                
+                <p style="margin-top: 35px; font-size: 1.15em; color: var(--text-gray);">
+                    🔒 Pagamento 100% Seguro • ✅ Acesso Imediato • ⚡ Restam <span id="vagas-counter-3" style="color: var(--accent-gold); font-weight: 800;">197</span> vagas
+                </p>
+
+                <div class="final-reminder">
+                    <p>
+                        <strong>Lembre-se:</strong> Você não está arriscando nada. Teste por 21 dias, 
+                        faça as 3 ações simples, e se não ver resultado NENHUM, você fica com tudo 
+                        e ainda ganha mentoria. <strong>Literalmente impossível perder.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Método REPRO - Todos os direitos reservados</p>
+            <p style="margin-top: 15px; opacity: 0.7; font-size: 0.95em;">
+                <a href="#">Termos de Uso</a> | 
+                <a href="#">Política de Privacidade</a> | 
+                <a href="#">Suporte</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- STICKY CTA -->
+    <div class="sticky-cta" id="stickyCta">
+        <div class="container">
+            <div class="info">
+                <div class="title">Método REPRO Completo</div>
+                <div class="price-tag">R$ 47,50</div>
+            </div>
+            <a href="#checkout" class="cta-button">GARANTIR VAGA AGORA</a>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // FAQ Toggle
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const wasActive = faqItem.classList.contains('active');
+            
+            // Fechar todos
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Abrir o clicado se não estava ativo
+            if (!wasActive) {
+                faqItem.classList.add('active');
+            }
+        }
+
+        // Sticky CTA - aparece ao rolar
+        window.addEventListener('scroll', function() {
+            const stickyCta = document.getElementById('stickyCta');
+            const heroSection = document.querySelector('.hero');
+            const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+            
+            if (window.pageYOffset > heroBottom) {
+                stickyCta.classList.add('show');
+            } else {
+                stickyCta.classList.remove('show');
+            }
+        });
+
+        // Contador de vagas (simulação - você vai conectar ao real)
+        let vagasRestantes = 197;
+        
+        function atualizarContadores() {
+            document.querySelectorAll('[id^="vagas-counter"]').forEach(el => {
+                el.textContent = vagasRestantes;
+            });
+        }
+
+        // Simular diminuição de vagas (remover em produção)
+        setInterval(() => {
+            if (vagasRestantes > 150) {
+                vagasRestantes--;
+                atualizarContadores();
+            }
+        }, 30000); // A cada 30 segundos
+
+        // Smooth scroll para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Analytics - tracking de eventos
+        function trackEvent(eventName, eventData) {
+            // Google Analytics, Facebook Pixel, etc.
+            console.log('Event:', eventName, eventData);
+            
+            // Exemplo de integração com GA4
+            // gtag('event', eventName, eventData);
+            
+            // Exemplo de integração com Facebook Pixel
+            // fbq('track', eventName, eventData);
+        }
+
+        // Tracking de cliques nos CTAs
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                // Não impedir navegação, apenas registrar
+                trackEvent('cta_click', {
+                    location: window.location.pathname,
+                    button_text: this.textContent.trim(),
+                    button_position: this.closest('section')?.className || 'unknown'
+                });
+            });
+        });
+
+        // Tracking de reprodução do áudio
+        const audioPlayer = document.querySelector('.audio-player');
+        if (audioPlayer) {
+            audioPlayer.addEventListener('play', function() {
+                trackEvent('audio_play', {
+                    duration: this.duration,
+                    current_time: this.currentTime
+                });
+            });
+            
+            audioPlayer.addEventListener('ended', function() {
+                trackEvent('audio_complete', {
+                    duration: this.duration
+                });
+            });
+        }
+
+        // Tracking de reprodução do vídeo
+        const videoPlayer = document.querySelector('.video-container video');
+        if (videoPlayer) {
+            videoPlayer.addEventListener('play', function() {
+                trackEvent('video_play', {
+                    duration: this.duration,
+                    current_time: this.currentTime
+                });
+            });
+            
+            videoPlayer.addEventListener('ended', function() {
+                trackEvent('video_complete', {
+                    duration: this.duration
+                });
+            });
+            
+            // Tracking de marcos de progresso
+            let trackedMarks = {
+                '25': false,
+                '50': false,
+                '75': false
+            };
+            
+            videoPlayer.addEventListener('timeupdate', function() {
+                const percent = (this.currentTime / this.duration) * 100;
+                
+                ['25', '50', '75'].forEach(mark => {
+                    if (percent >= parseInt(mark) && !trackedMarks[mark]) {
+                        trackedMarks[mark] = true;
+                        trackEvent('video_progress', {
+                            progress: mark + '%',
+                            duration: this.duration
+                        });
+                    }
+                });
+            });
+        }
+
+        // Tracking de tempo na página
+        let pageEntryTime = Date.now();
+        
+        window.addEventListener('beforeunload', function() {
+            const timeOnPage = Math.round((Date.now() - pageEntryTime) / 1000);
+            trackEvent('time_on_page', {
+                seconds: timeOnPage
+            });
+        });
+
+        // Tracking de scroll depth
+        let maxScrollDepth = 0;
+        
+        window.addEventListener('scroll', function() {
+            const scrollPercent = (window.scrollY + window.innerHeight) / document.body.scrollHeight * 100;
+            
+            if (scrollPercent > maxScrollDepth) {
+                maxScrollDepth = Math.round(scrollPercent);
+                
+                // Registrar marcos
+                [25, 50, 75, 90].forEach(mark => {
+                    if (maxScrollDepth >= mark && maxScrollDepth < mark + 5) {
+                        trackEvent('scroll_depth', {
+                            depth: mark + '%'
+                        });
+                    }
+                });
+            }
+        });
+
+        // Console log para desenvolvimento
+        console.log('%c🔥 Método REPRO - Página de Vendas Carregada! ', 'background: #6C63FF; color: #FFD93D; font-size: 20px; padding: 10px; border-radius: 5px;');
+        console.log('%cVersão: Dark Premium 1.0', 'color: #6C63FF; font-size: 14px;');
+    </script>
+
+</body>
+</html>
